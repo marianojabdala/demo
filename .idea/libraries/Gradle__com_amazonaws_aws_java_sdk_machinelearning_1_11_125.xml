@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-machinelearning:1.11.125">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-machinelearning/1.11.125/c833a4f62486cd76ce1e902da0e522783da5be91/aws-java-sdk-machinelearning-1.11.125.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-machinelearning/1.11.125/d0bf898d617ea15496f916383a91bc6a77cd60fe/aws-java-sdk-machinelearning-1.11.125-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

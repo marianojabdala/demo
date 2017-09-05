@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-resourcegroupstaggingapi:1.11.125">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.11.125/5f141b050f56c2a53621366c9527da64c9cd42e7/aws-java-sdk-resourcegroupstaggingapi-1.11.125.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.11.125/c9dff647810c312cb491e793017aa3648378e1c4/aws-java-sdk-resourcegroupstaggingapi-1.11.125-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
