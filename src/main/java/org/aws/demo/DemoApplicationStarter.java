@@ -1,10 +1,7 @@
 package org.aws.demo;
 
-import com.amazonaws.ClientConfiguration;
 import com.amazonaws.services.simpleworkflow.AmazonSimpleWorkflow;
-import com.amazonaws.services.simpleworkflow.AmazonSimpleWorkflowClient;
 
-import com.amazonaws.util.StringUtils;
 import org.aws.config.SWFHelper;
 import org.aws.demo.workflow.GreeterWorkflowClientExternal;
 import org.aws.demo.workflow.GreeterWorkflowClientExternalFactory;
