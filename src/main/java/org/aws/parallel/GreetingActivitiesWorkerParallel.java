@@ -21,6 +21,7 @@ public class GreetingActivitiesWorkerParallel {
 
         ActivityWorker aw = new ActivityWorker(service, domain, taskListToPoll);
         aw.addActivitiesImplementation(new GreeterActivitiesImpl());
+        aw.setTaskExecutorThreadPoolSize(10);
         aw.start();
 
         System.out.println("Activities Worker Parallel Started!!!");

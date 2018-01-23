@@ -6,6 +6,6 @@ import com.amazonaws.services.simpleworkflow.flow.annotations.WorkflowRegistrati
 @Workflow
 @WorkflowRegistrationOptions(defaultExecutionStartToCloseTimeoutSeconds = 3600)
 public interface GreeterWorkflow {
-    @Execute(version = "3.0")
+    @Execute(version = "3.1")
     void greet(int count);
 }

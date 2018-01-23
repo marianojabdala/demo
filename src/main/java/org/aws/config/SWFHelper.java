@@ -7,17 +7,26 @@ import com.amazonaws.services.simpleworkflow.AmazonSimpleWorkflowClient;
 public enum SWFHelper {
     INSTANCE;
 
-   public static String DOMAIN() {
+
+    public static String DOMAIN() {
        String domain = System.getProperty("SWF_DOMAIN");
        if (domain == null) {
            throw new RuntimeException("Missing SWF_DOMAIN property");
        }
-       return System.getProperty("SWF_DOMAIN");
-   }
+       return domain;
+    }
 
-   public static AmazonSimpleWorkflow CLIENT(){
+    public static AmazonSimpleWorkflow CLIENT(){
        ClientConfiguration config = new ClientConfiguration().withSocketTimeout(70*1000);
 
-       return AmazonSimpleWorkflowClient.builder().withClientConfiguration(config).build();
-   }
+       return AmazonSimpleWorkflowClient.builder().withRegion("us-east-1").withClientConfiguration(config).build();
+    }
+
+    public static int getIterations() {
+        String iterations = System.getProperty("iterations");
+        if (iterations == null || "".equals(iterations)) {
+            return 10;
+        }
+        return Integer.parseInt(iterations);
+    }
 }

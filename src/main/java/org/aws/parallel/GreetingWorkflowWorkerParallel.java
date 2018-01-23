@@ -21,6 +21,7 @@ public class GreetingWorkflowWorkerParallel {
 
         WorkflowWorker wfw = new WorkflowWorker(service, domain, taskListToPoll);
         wfw.addWorkflowImplementationType(GreeterWorkflowImpl.class);
+        wfw.setPollThreadCount(10);
         wfw.start();
         System.out.println("Worker Parallel Started!!!");
 	}

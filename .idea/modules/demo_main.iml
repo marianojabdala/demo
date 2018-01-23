@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="demo:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/parallel/DemoApplicationParallel.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/demo/GreetingWorkflowWorker.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/parallel/GreetingActivitiesWorkerParallel.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/parallel/GreetingWorkflowWorkerParallel.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/demo/GreetingActivitiesWorker.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/parallel/DemoApplicationStarterParallel.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/demo/DemoApplicationStarter.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/aws/demo/DemoApplication.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/generated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/generated" isTestSource="false" generated="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

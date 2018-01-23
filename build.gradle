@@ -41,17 +41,23 @@ dependencies {
 
 }
 
-// mainClassName = "org.aws.demo.DemoApplication"
+ // mainClassName = "org.aws.parallel.DemoApplicationStarterParallel"
 // mainClassName = "org.aws.demo.GreetingActivitiesWorker"
 // mainClassName = "org.aws.demo.GreetingWorkflowWorker"
- mainClassName = "org.aws.parallel.GreetingActivitiesWorkerParallel"
+  mainClassName = "org.aws.parallel.GreetingActivitiesWorkerParallel"
  // mainClassName = "org.aws.parallel.GreetingWorkflowWorkerParallel"
 //
 
 jar {
     manifest {
-        version "0.0.4-Activities-Paralell"
+/*        version "0.0.4-starter"
+        attributes 'Main-Class': 'org.aws.parallel.DemoApplicationStarterParallel'*/
+
+		version "0.0.4-activities-parallel"
         attributes 'Main-Class': 'org.aws.parallel.GreetingActivitiesWorkerParallel'
+
+		/*version "0.0.4-workflow-parallel"
+        attributes 'Main-Class': 'org.aws.parallel.GreetingWorkflowWorkerParallel'*/
     }
 }
 

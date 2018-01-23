@@ -10,7 +10,7 @@ public class GreeterWorkflowImpl implements GreeterWorkflow {
     @Override
     public void greet(int count) {
         Promise<String> name = operations.getName();
-        Promise<String> greeting = operations.getGreeting();
+        Promise<String> greeting = operations.getGreeting(count);
         operations.say(greeting, name);
     }
 }

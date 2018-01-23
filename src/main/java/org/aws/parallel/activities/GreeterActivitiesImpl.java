@@ -7,8 +7,8 @@ public class GreeterActivitiesImpl implements GreeterActivities {
    }
 
    @Override
-   public String getGreeting() {
-      return "Parallel - Hello ";
+   public String getGreeting(int iteration) {
+      return  "Iteration N°: " + iteration + " - Parallel - Hello";
    }
 
    @Override

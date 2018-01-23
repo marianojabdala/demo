@@ -18,14 +18,16 @@ public class DemoApplicationStarterParallel {
 
         AmazonSimpleWorkflow service = SWFHelper.INSTANCE.CLIENT();
 
-        String domain = SWFHelper.INSTANCE.DOMAIN();
+        String domain = SWFHelper.DOMAIN();
 
-        for( int i=1 ; i < 5; i++){
+        int iterations = SWFHelper.getIterations();
+
+        for( int i=1 ; i < iterations; i++){
             GreeterWorkflowClientExternalFactory factory = new GreeterWorkflowClientExternalFactoryImpl(service, domain);
             GreeterWorkflowClientExternal greeter = factory.getClient();
+            greeter.greet(i);
             System.out.println("RunID: " + greeter.getWorkflowExecution().getRunId());
             System.out.println("Workflow Id:" + greeter.getWorkflowExecution().getWorkflowId());
-            greeter.greet(i);
             System.out.println("Message sent");
             System.out.println
                     ("######################################################################################");

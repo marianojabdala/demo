@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-swf-build-tools/1.0/dabf4ff5d717d38b2e21f31b63da697aeccf7320/aws-swf-build-tools-1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-swf-build-tools/1.0/2abfe0dc5fa73fb5c9003cb88bf8a7ce49d0c420/aws-swf-build-tools-1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
